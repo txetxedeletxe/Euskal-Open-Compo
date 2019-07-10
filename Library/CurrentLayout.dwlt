@@ -1,0 +1,2695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 9}
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 948
+    y: 0
+    width: 325
+    height: 573
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 431
+    y: 0
+    width: 842
+    height: 374
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 573
+    width: 1273
+    height: 374
+  m_MinSize: {x: 336, y: 272}
+  m_MaxSize: {x: 14006, y: 10022}
+  vertical: 0
+  controlID: 3817
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 610, y: 494}
+  m_MaxSize: {x: 18008, y: 14044}
+  vertical: 0
+  controlID: 118
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1273
+    y: 0
+    width: 647
+    height: 947
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 411
+    height: 573
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 431
+    height: 374
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 24}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 5}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 997
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 977
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1273
+    height: 947
+  m_MinSize: {x: 508, y: 494}
+  m_MaxSize: {x: 14006, y: 14044}
+  vertical: 1
+  controlID: 15519
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 14}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1273
+    height: 573
+  m_MinSize: {x: 508, y: 222}
+  m_MaxSize: {x: 12008, y: 4022}
+  vertical: 0
+  controlID: 15520
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 411
+    y: 0
+    width: 537
+    height: 573
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 22}
+  - {fileID: 23}
+  - {fileID: 18}
+  m_Selected: 1
+  m_LastSelected: 1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitHub
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1273
+    y: 73
+    width: 645
+    height: 928
+  m_ViewDataDictionary: {fileID: 0}
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
+  changeTab: 5
+  activeTab: 5
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2019-07-09T22:16:45.149+02:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2019-07-09T22:24:52.060+02:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2019-07-09T22:21:21.417+02:00
+      cacheType: 1
+    currentBranch:
+      name: master
+      tracking: 
+    currentRemote:
+      name: origin
+      url: https://github.com/sophyelord/Euskal-Open-Compo.git
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: 
+    remoteBranches:
+    - name: origin/master
+      tracking: '[None]'
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: '[master]'
+    treeScroll: {x: 0, y: 1515}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2019-07-09T22:21:21.417+02:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 4241980ebfd1d75c0a43d7302aa3e3d9427ba8ec
+      mergeA: 
+      mergeB: 
+      authorName: k0r0s
+      authorEmail: ex0k0r0s@gmail.com
+      commitEmail: ex0k0r0s@gmail.com
+      commitName: k0r0s
+      summary: Open-Game-Compo-Dabbling
+      description: This is our first trial with the unity graphics motor.
+      timeString: 2019-07-09T22:24:08.000+02:00
+      commitTimeString: 2019-07-09T22:24:08.000+02:00
+      changes:
+      - path: Assets\Animations.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations.meta
+        projectPath: Assets\Animations.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player.controller
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player.controller
+        projectPath: Assets\Animations\Player.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player.controller.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player.controller.meta
+        projectPath: Assets\Animations\Player.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_Idle.anim
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Idle.anim
+        projectPath: Assets\Animations\Player_Idle.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_Idle.anim.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Idle.anim.meta
+        projectPath: Assets\Animations\Player_Idle.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_Jump.anim
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Jump.anim
+        projectPath: Assets\Animations\Player_Jump.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_Jump.anim.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Jump.anim.meta
+        projectPath: Assets\Animations\Player_Jump.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_JumpStart.anim
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_JumpStart.anim
+        projectPath: Assets\Animations\Player_JumpStart.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_JumpStart.anim.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_JumpStart.anim.meta
+        projectPath: Assets\Animations\Player_JumpStart.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_Run.anim
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Run.anim
+        projectPath: Assets\Animations\Player_Run.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Animations\Player_Run.anim.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Run.anim.meta
+        projectPath: Assets\Animations\Player_Run.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Object.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Object.meta
+        projectPath: Assets\Object.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Object\Block.prefab
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Object\Block.prefab
+        projectPath: Assets\Object\Block.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Object\Block.prefab.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Object\Block.prefab.meta
+        projectPath: Assets\Object\Block.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins.meta
+        projectPath: Assets\Plugins.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub.meta
+        projectPath: Assets\Plugins\GitHub.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor.meta
+        projectPath: Assets\Plugins\GitHub\Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\System.Threading.dll
+        projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\credits.txt
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\credits.txt
+        projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\credits.txt.meta
+        projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\eula.txt
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\eula.txt
+        projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\eula.txt.meta
+        projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.bundle
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.so
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\sfw.net.dll
+        projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts\Player.meta
+        projectPath: Assets\Scripts\Player.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\PlayerMovement.cs
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts\Player\PlayerMovement.cs
+        projectPath: Assets\Scripts\Player\PlayerMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\PlayerMovement.cs.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts\Player\PlayerMovement.cs.meta
+        projectPath: Assets\Scripts\Player\PlayerMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites.meta
+        projectPath: Assets\Sprites.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player.meta
+        projectPath: Assets\Sprites\Player.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\Idledance-sheet.png
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\Idledance-sheet.png
+        projectPath: Assets\Sprites\Player\Idledance-sheet.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\Idledance-sheet.png.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\Idledance-sheet.png.meta
+        projectPath: Assets\Sprites\Player\Idledance-sheet.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\jumproll.png
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumproll.png
+        projectPath: Assets\Sprites\Player\jumproll.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\jumproll.png.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumproll.png.meta
+        projectPath: Assets\Sprites\Player\jumproll.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\jumpstart.png
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumpstart.png
+        projectPath: Assets\Sprites\Player\jumpstart.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\jumpstart.png.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumpstart.png.meta
+        projectPath: Assets\Sprites\Player\jumpstart.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\running.png
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\running.png
+        projectPath: Assets\Sprites\Player\running.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Player\running.png.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\running.png.meta
+        projectPath: Assets\Sprites\Player\running.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\block.png
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\block.png
+        projectPath: Assets\Sprites\block.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\block.png.meta
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\block.png.meta
+        projectPath: Assets\Sprites\block.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\NetworkManager.asset
+        projectPath: ProjectSettings\NetworkManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 2d7b8a24c51653b965b65de6273db185ba861b10
+      mergeA: 
+      mergeB: 
+      authorName: k0r0s
+      authorEmail: ex0k0r0s@gmail.com
+      commitEmail: ex0k0r0s@gmail.com
+      commitName: k0r0s
+      summary: Initial commit
+      description: 
+      timeString: 2019-07-09T22:16:49.000+02:00
+      commitTimeString: 2019-07-09T22:16:49.000+02:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2019-07-09T22:28:05.886+02:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 4241980ebfd1d75c0a43d7302aa3e3d9427ba8ec
+        mergeA: 
+        mergeB: 
+        authorName: k0r0s
+        authorEmail: ex0k0r0s@gmail.com
+        commitEmail: ex0k0r0s@gmail.com
+        commitName: k0r0s
+        summary: Open-Game-Compo-Dabbling
+        description: This is our first trial with the unity graphics motor.
+        timeString: 2019-07-09T22:24:08.000+02:00
+        commitTimeString: 2019-07-09T22:24:08.000+02:00
+        changes:
+        - path: Assets\Animations.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations.meta
+          projectPath: Assets\Animations.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player.controller
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player.controller
+          projectPath: Assets\Animations\Player.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player.controller.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player.controller.meta
+          projectPath: Assets\Animations\Player.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_Idle.anim
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Idle.anim
+          projectPath: Assets\Animations\Player_Idle.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_Idle.anim.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Idle.anim.meta
+          projectPath: Assets\Animations\Player_Idle.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_Jump.anim
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Jump.anim
+          projectPath: Assets\Animations\Player_Jump.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_Jump.anim.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Jump.anim.meta
+          projectPath: Assets\Animations\Player_Jump.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_JumpStart.anim
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_JumpStart.anim
+          projectPath: Assets\Animations\Player_JumpStart.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_JumpStart.anim.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_JumpStart.anim.meta
+          projectPath: Assets\Animations\Player_JumpStart.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_Run.anim
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Run.anim
+          projectPath: Assets\Animations\Player_Run.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Animations\Player_Run.anim.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Animations\Player_Run.anim.meta
+          projectPath: Assets\Animations\Player_Run.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Object.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Object.meta
+          projectPath: Assets\Object.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Object\Block.prefab
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Object\Block.prefab
+          projectPath: Assets\Object\Block.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Object\Block.prefab.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Object\Block.prefab.meta
+          projectPath: Assets\Object\Block.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins.meta
+          projectPath: Assets\Plugins.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub.meta
+          projectPath: Assets\Plugins\GitHub.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor.meta
+          projectPath: Assets\Plugins\GitHub\Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\System.Threading.dll
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\credits.txt
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\credits.txt
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\credits.txt.meta
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\eula.txt
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\eula.txt
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\eula.txt.meta
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.bundle
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.so
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.so
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\sfw.net.dll
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts\Player.meta
+          projectPath: Assets\Scripts\Player.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\PlayerMovement.cs
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts\Player\PlayerMovement.cs
+          projectPath: Assets\Scripts\Player\PlayerMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\PlayerMovement.cs.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Scripts\Player\PlayerMovement.cs.meta
+          projectPath: Assets\Scripts\Player\PlayerMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites.meta
+          projectPath: Assets\Sprites.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player.meta
+          projectPath: Assets\Sprites\Player.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\Idledance-sheet.png
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\Idledance-sheet.png
+          projectPath: Assets\Sprites\Player\Idledance-sheet.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\Idledance-sheet.png.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\Idledance-sheet.png.meta
+          projectPath: Assets\Sprites\Player\Idledance-sheet.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\jumproll.png
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumproll.png
+          projectPath: Assets\Sprites\Player\jumproll.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\jumproll.png.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumproll.png.meta
+          projectPath: Assets\Sprites\Player\jumproll.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\jumpstart.png
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumpstart.png
+          projectPath: Assets\Sprites\Player\jumpstart.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\jumpstart.png.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\jumpstart.png.meta
+          projectPath: Assets\Sprites\Player\jumpstart.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\running.png
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\running.png
+          projectPath: Assets\Sprites\Player\running.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Player\running.png.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\Player\running.png.meta
+          projectPath: Assets\Sprites\Player\running.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\block.png
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\block.png
+          projectPath: Assets\Sprites\block.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\block.png.meta
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\Sprites\block.png.meta
+          projectPath: Assets\Sprites\block.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\NetworkManager.asset
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 2d7b8a24c51653b965b65de6273db185ba861b10
+        mergeA: 
+        mergeB: 
+        authorName: k0r0s
+        authorEmail: ex0k0r0s@gmail.com
+        commitEmail: ex0k0r0s@gmail.com
+        commitName: k0r0s
+        summary: Initial commit
+        description: 
+        timeString: 2019-07-09T22:16:49.000+02:00
+        commitTimeString: 2019-07-09T22:16:49.000+02:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\K0r0s\Open-Game-Compo-M4M\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Users\K0r0s\AppData\Local\GitHubUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\K0r0s\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2019-07-09T22:21:21.417+02:00
+      cacheType: 1
+    metricsEnabled: 1
+    newRepositoryRemoteUrl: https://github.com/sophyelord/Euskal-Open-Compo.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/sophyelord/Euskal-Open-Compo.git
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: k0r0s
+      gitEmail: ex0k0r0s@gmail.com
+      newGitName: k0r0s
+      newGitEmail: ex0k0r0s@gmail.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
+        cacheType: 8
+    webTimeout: 3000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 1 Jan 0001, 01:00
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2019-07-09T22:21:21.417+02:00
+      cacheType: 1
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: k0r0s
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/sophyelord/Euskal-Open-Compo.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 0
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/sophyelord/Euskal-Open-Compo.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2019-07-09T22:21:21.417+02:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2019-07-09T22:28:05.886+02:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
+  connections: []
+  primaryConnectionUsername: k0r0s
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 948
+    y: 73
+    width: 323
+    height: 554
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -1825603193722255726, guid: e2be76f5b7aace843a074500b569ae7e, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.84637016
+      e01: 0
+      e02: 0
+      e03: -240.69324
+      e10: 0
+      e11: 0.84637016
+      e12: 0
+      e13: 76.456116
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: e2be76f5b7aace843a074500b569ae7e,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -1825603193722255726, guid: e2be76f5b7aace843a074500b569ae7e,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 431
+    y: 646
+    width: 840
+    height: 355
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 11356
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 500
+    y: 73
+    width: 1029
+    height: 554
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 646
+    width: 431
+    height: 355
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Sprites/Player
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Sprites/Player
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\K0r0s\Open-Game-Compo-M4M
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 822b0000
+    m_LastClickedID: 11138
+    m_ExpandedIDs: 00000000562900007e2900007a2b000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0000000056290000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000000000000de320000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 8}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1585
+    y: 73
+    width: 333
+    height: 928
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 196
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 411
+    height: 554
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8efbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 7}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: a9b4d223b89f85f47bd2c41f980a4cc1
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 500
+    y: 73
+    width: 1029
+    height: 554
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 3230201dd1b300a4eac08c06ffe2422d
+  m_Gizmos: 1
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 29.561117, y: 30.438732, z: -371.324}
+    speed: 2
+    m_Value: {x: 29.561117, y: 30.438732, z: -371.324}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 133.2241
+    speed: 2
+    m_Value: 133.2241
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_FieldOfView: 90
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 411
+    y: 73
+    width: 535
+    height: 554
+  m_ViewDataDictionary: {fileID: 0}
+  m_VSyncEnabled: 0
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -267.5
+    m_HBaseRangeMax: 267.5
+    m_VBaseRangeMin: -150.5
+    m_VBaseRangeMax: 150.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 1
+    m_VSlider: 1
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 535
+      height: 537
+    m_Scale: {x: 2.6511014, y: 2.6511006}
+    m_Translation: {x: 236.82607, y: 268.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -89.3312
+      y: -101.27869
+      width: 201.80292
+      height: 202.55737
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 535, y: 554}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+  m_XRRenderMode: 0
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 646
+    width: 1531
+    height: 355
+  m_ViewDataDictionary: {fileID: 0}
