@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // Movement characteristics
+    [Min(0)] public float horizontalMoveForce = 1000f;
+    [Min(0)] public float jumpForce = 200f;
+    [Min(0)] public float jumpSquatDelayMs = 40f;
+
     //State variables
     [ReadOnly] public bool canJump = false;
-    [Min(0)] public float jumpSquatDelayMs = 40;
 
     private bool gonnaJump  = false;
     private float jumpStartTime;
@@ -31,14 +35,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey("left"))
         {
-            rb2d.AddForce(new Vector2(-1000f * Time.deltaTime, 0));
+            rb2d.AddForce(new Vector2(-horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
             renderer.flipX = true;
         }
 
         if (Input.GetKey("right"))
         {
-            rb2d.AddForce(new Vector2(1000f * Time.deltaTime, 0));
+            rb2d.AddForce(new Vector2(horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
             renderer.flipX = false;
         }
@@ -59,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 gonnaJump = false;
 
-                rb2d.AddForce(new Vector2(0, 200f));
+                rb2d.AddForce(new Vector2(0, jumpForce));
             }
         }
     }
