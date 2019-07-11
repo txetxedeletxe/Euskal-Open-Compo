@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-07-09T22:21:21.417+02:00
-  initializedAtString: 2019-07-09T22:16:49.685+02:00
+  lastUpdatedAtString: 2019-07-11T16:02:50.364+02:00
+  initializedAtString: 2019-07-11T16:02:50.364+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/sophyelord/Euskal-Open-Compo.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/sophyelord/Euskal-Open-Compo.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/sophyelord/Euskal-Open-Compo.git

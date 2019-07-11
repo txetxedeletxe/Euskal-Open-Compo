@@ -5,15 +5,19 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Movement characteristics
-    [Min(0)] public float horizontalMoveForce = 1000f;
-    [Min(0)] public float jumpForce = 200f;
-    [Min(0)] public float jumpSquatDelayMs = 40f;
+    [Min(0)] public float horizontalMoveForce = 2000f;
+    [Min(0)] public float jumpForce = 700f;
+    [Min(0)] public float jumpSquatDelayMs = 20f;
 
     //State variables
-    [ReadOnly] public bool canJump = false;
+     public bool canJump = false;
+       public bool facingRight;
+
 
     private bool gonnaJump  = false;
     private float jumpStartTime;
+   
+
 
     //Cached components
     private Rigidbody2D rb2d;
@@ -27,8 +31,9 @@ public class PlayerMovement : MonoBehaviour
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         renderer = gameObject.GetComponent<SpriteRenderer>();
+         facingRight = true;
 
-    }
+}
 
     // Update is called once per frame
     void FixedUpdate()
@@ -37,15 +42,38 @@ public class PlayerMovement : MonoBehaviour
         {
             rb2d.AddForce(new Vector2(-horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
-            renderer.flipX = true;
+            
+            //if (transform.localScale.x > 0)
+            //    transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+             
+            if(facingRight)
+            {
+                transform.Rotate(0f, 180f, 0f);
+                facingRight = false;
+            }
+
         }
 
         if (Input.GetKey("right"))
         {
             rb2d.AddForce(new Vector2(horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
-            renderer.flipX = false;
+
+
+
+
+            //if (transform.localScale.x < 0)
+            //    transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            if(!facingRight)
+        {
+                transform.Rotate(0f, 180f, 0f);
+                facingRight = true;
+            }
         }
+
+        
+
+
         if (Input.GetKeyDown("up") && canJump)
         {
             canJump = false;
