@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [Min(0)] public float jumpSquatDelayMs = 40f;
 
     //State variables
-    [ReadOnly] public bool canJump = false;
+    public bool canJump = false;
 
     private bool gonnaJump  = false;
     private float jumpStartTime;
