@@ -10,24 +10,26 @@ public class PlayerMovement : MonoBehaviour
     [Min(0)] public float jumpSquatDelayMs = 40f;
 
     //State variables
-    public bool canJump = false;
-
-    private bool gonnaJump  = false;
+    private bool canJump;
+    private bool facingRight;
+    private bool gonnaJump;
     private float jumpStartTime;
+
 
     //Cached components
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer renderer;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update;
     void Start()
     {
-
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         renderer = gameObject.GetComponent<SpriteRenderer>();
-
+        canJump = false;
+        facingRight = true;
+        gonnaJump  = false;
     }
 
     // Update is called once per frame
@@ -37,14 +39,21 @@ public class PlayerMovement : MonoBehaviour
         {
             rb2d.AddForce(new Vector2(-horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
-            renderer.flipX = true;
+
+            if(facingRight){
+                  transform.Rotate(0f, 180f, 0f);
+                  facingRight = false;
+              }
         }
 
         if (Input.GetKey("right"))
         {
             rb2d.AddForce(new Vector2(horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
-            renderer.flipX = false;
+            if(!facingRight){
+                transform.Rotate(0f, 180f, 0f);
+                facingRight = true;
+            }
         }
         if (Input.GetKeyDown("up") && canJump)
         {
@@ -54,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("Jump", true);
 
         }
+      
         if (!Input.GetKey("left") && !Input.GetKey("right")) {
             anim.SetBool("Run", false);
         }
