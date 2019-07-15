@@ -10,7 +10,7 @@ public class visor : MonoBehaviour
     private string up = "w";
     private string down = "s";
     private string upDiagonal = "d";
-    private string downDiagonal = "s";
+    private string downDiagonal = "a";
     void Start()
     {
       facingRight =true;
