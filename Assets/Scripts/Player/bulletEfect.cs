@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bulletEfect : MonoBehaviour
 {
-  private float deathTime =0.25f;
+  private float deathTime =0.15f;
     // Start is called before the first frame update
     void Start()
     {
