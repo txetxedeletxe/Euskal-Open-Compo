@@ -15,11 +15,8 @@ public class normlbullet : MonoBehaviour
     void FixedUpdate(){
     }
 
-    private void OnCollisionEnter2D (Collision2D hitInfo)
-    {
-        //Debug.Log(hitInfo.name);
-      //  Instantiate(impactEffect, transform.position, transform.rotation);
-      if (hitInfo.transform.tag != "bullet"){
+    private void OnTriggerEnter2D(Collider2D hitInfo) {
+      if (hitInfo.transform.tag == "player" || hitInfo.transform.tag == "ground"){
           Destroy(gameObject);
       }
     }

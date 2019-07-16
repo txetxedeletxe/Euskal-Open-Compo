@@ -29,11 +29,11 @@ public class sinusoidalBullet : MonoBehaviour
         }
       }
     }
-    private void OnCollisionEnter2D (Collision2D hitInfo)
-    {
+    private void OnTriggerEnter2D(Collider2D hitInfo) {
+
         //Debug.Log(hitInfo.name);
       //  Instantiate(impactEffect, transform.position, transform.rotation);
-      if (hitInfo.transform.tag != "bullet"){
+      if (hitInfo.transform.tag == "player" || hitInfo.transform.tag == "ground"){
           Destroy(gameObject);
       }
     }

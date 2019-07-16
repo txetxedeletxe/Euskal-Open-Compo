@@ -16,10 +16,9 @@ public class metralla : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
     }
-    private void OnCollisionEnter2D (Collision2D  hitInfo) {
-      if (hitInfo.transform.tag != "bullet"){
+       public void OnTriggerEnter2D(Collider2D hitInfo){
+      if (hitInfo.transform.tag == "player" || hitInfo.transform.tag == "ground"){
           Destroy(gameObject);
       }}
 }
