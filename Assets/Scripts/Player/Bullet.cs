@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
 
      void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        if (hitInfo.transform.tag != "player" && hitInfo.transform.tag != "bullet"){
+        if (hitInfo.transform.tag == "enemy" || hitInfo.transform.tag == "ground"){
         Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(gameObject);
       }

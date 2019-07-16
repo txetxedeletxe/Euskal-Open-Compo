@@ -21,9 +21,9 @@ public class parabolicBullet : MonoBehaviour
     {
 
     }
-    private void OnCollisionEnter2D (Collision2D  hitInfo) {
+    private void OnCollisionEnter2D(Collision2D hitInfo) {
       // Debug.Log(hitInfo.name);
-      if (hitInfo.transform.tag != "bullet"){
+      if (hitInfo.transform.tag == "player" || hitInfo.transform.tag == "ground"){
 
       Instantiate(crabGrenadeExplosion, transform.position, transform.rotation);
        Instantiate(impactEffect, transform.position,  Quaternion.Euler(0,0,0));
