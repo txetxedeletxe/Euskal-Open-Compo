@@ -5,7 +5,6 @@ using UnityEngine;
 public class Turret : MonoBehaviour
 {
     // Start is called before the first frame update
-    // private bool facingRight;
     private string up = "w";
     private string down = "s";
     private string upDiagonal = "d";
@@ -19,13 +18,6 @@ public class Turret : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        // if (Input.GetKey("left"))
-        // {
-        //     facingRight = false;
-        // }else if (Input.GetKey("right"))
-        // {
-        //     facingRight = true;
-        // }
         if (Input.GetKey(up)){
           transform.localRotation = Quaternion.Euler(0, 0, 90);
         }else if (Input.GetKey(down)){

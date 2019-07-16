@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 494b8c2d768f07bebafeed2032faa9d3
+guid: a27e372ef85b2f162920912c156ada36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7946901282031728073
-    second: EnemyCrab_0
+      213: 7394477099746336580
+    second: EnemyCrabAttack_0
   - first:
-      213: 2298374433165398522
-    second: EnemyCrab_1
+      213: 8638374852919071561
+    second: EnemyCrabAttack_1
   - first:
-      213: 3336221523516516871
-    second: EnemyCrab_2
+      213: -1334590106234992191
+    second: EnemyCrabAttack_2
   - first:
-      213: 1888593728279638935
-    second: EnemyCrab_3
+      213: -1797902693777867101
+    second: EnemyCrabAttack_3
   - first:
-      213: -4519601610850605924
-    second: EnemyCrab_4
+      213: -6077735274980087925
+    second: EnemyCrabAttack_4
   - first:
-      213: -5549180441621772208
-    second: EnemyCrab_5
+      213: 6787309557923489382
+    second: EnemyCrabAttack_5
   - first:
-      213: -5246175031085361112
-    second: EnemyCrab_6
+      213: -7695436741546721332
+    second: EnemyCrabAttack_6
   - first:
-      213: 8377560961558740316
-    second: EnemyCrab_7
+      213: 5591685779237338008
+    second: EnemyCrabAttack_7
   - first:
-      213: -5412847900133690029
-    second: EnemyCrab_8
+      213: -1449053957252201878
+    second: EnemyCrabAttack_8
   - first:
-      213: 3524321232741201261
-    second: EnemyCrab_9
+      213: -751271773480352359
+    second: EnemyCrabAttack_9
   - first:
-      213: 1531809761564752378
-    second: EnemyCrab_10
+      213: 4487901973066544990
+    second: EnemyCrabAttack_10
   - first:
-      213: -8512665198256092161
-    second: EnemyCrab_11
+      213: -5761099537550629539
+    second: EnemyCrabAttack_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnemyCrab_0
+      name: EnemyCrabAttack_0
       rect:
         serializedVersion: 2
         x: 5
@@ -136,14 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffb714c6bc070532f8de2397714940e5
-      internalID: 7946901282031728073
+      spriteID: 82af337f4bc1767bfb91be12646e7d31
+      internalID: 7394477099746336580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_1
+      name: EnemyCrabAttack_1
       rect:
         serializedVersion: 2
         x: 69
@@ -157,14 +157,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba28df9377b7b899c97af37700121ed0
-      internalID: 2298374433165398522
+      spriteID: eacbd5b7dcd8054f9945f0d882676412
+      internalID: 8638374852919071561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_2
+      name: EnemyCrabAttack_2
       rect:
         serializedVersion: 2
         x: 134
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc21cd8d26a9e4a10bfd5c0998508249
-      internalID: 3336221523516516871
+      spriteID: 2660867b7abc627c680ee7037d72b922
+      internalID: -1334590106234992191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_3
+      name: EnemyCrabAttack_3
       rect:
         serializedVersion: 2
         x: 199
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb72a5ca8d529a2c2aa5f2c732c1ff8a
-      internalID: 1888593728279638935
+      spriteID: 0fe6735d20cfdb423805203eba67c581
+      internalID: -1797902693777867101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_4
+      name: EnemyCrabAttack_4
       rect:
         serializedVersion: 2
         x: 261
@@ -220,14 +220,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87195e5d9f9e9ee5c84531859254d580
-      internalID: -4519601610850605924
+      spriteID: ebbd2767e9464edb9adb39c4ef37187b
+      internalID: -6077735274980087925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_5
+      name: EnemyCrabAttack_5
       rect:
         serializedVersion: 2
         x: 325
@@ -241,14 +241,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b7ac1fae2ed70ed997c0228b40a90c
-      internalID: -5549180441621772208
+      spriteID: b91eec7586fb099c68f2d381c31bf94a
+      internalID: 6787309557923489382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_6
+      name: EnemyCrabAttack_6
       rect:
         serializedVersion: 2
         x: 389
@@ -262,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38d2a226e99ff4d6bb7accc2e99d36c3
-      internalID: -5246175031085361112
+      spriteID: d0e5d74851ada58c78b9ce9371bd3a06
+      internalID: -7695436741546721332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_7
+      name: EnemyCrabAttack_7
       rect:
         serializedVersion: 2
         x: 452
         y: 2
         width: 48
-        height: 60
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,14 +283,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ada61f01d6278d15ada934555124b67
-      internalID: 8377560961558740316
+      spriteID: 83c604e079594d019a20fbd4aa31ab33
+      internalID: 5591685779237338008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_8
+      name: EnemyCrabAttack_8
       rect:
         serializedVersion: 2
         x: 515
@@ -304,14 +304,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa9d57ccb5fd0e8e7a51b217e5c2246a
-      internalID: -5412847900133690029
+      spriteID: 948969e312aca5a898d334f384e578cd
+      internalID: -1449053957252201878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_9
+      name: EnemyCrabAttack_9
       rect:
         serializedVersion: 2
         x: 578
@@ -325,14 +325,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b90894ca7c0c6a2db2a3c3074e5454b
-      internalID: 3524321232741201261
+      spriteID: 141c95659620e0a049fd18c22d1b21ac
+      internalID: -751271773480352359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_10
+      name: EnemyCrabAttack_10
       rect:
         serializedVersion: 2
         x: 645
@@ -346,14 +346,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dc3580bf69f0caf08a7804e066a8b2f
-      internalID: 1531809761564752378
+      spriteID: 81239d2506f6eb82c9c65ea03b0d6255
+      internalID: 4487901973066544990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyCrab_11
+      name: EnemyCrabAttack_11
       rect:
         serializedVersion: 2
         x: 709
@@ -367,8 +367,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1f224b6c98a4b690be1dc13f0531760
-      internalID: -8512665198256092161
+      spriteID: df164fecc22dae51189de4433743e875
+      internalID: -5761099537550629539
       vertices: []
       indices: 
       edges: []

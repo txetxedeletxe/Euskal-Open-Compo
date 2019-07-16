@@ -95,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 4089409244601945448}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 374560b05d54fac4ebab26c57d6f7e8a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lazerBeam: {fileID: 4089409244601945448}
-  laserChild: {fileID: 0}
+  laserChild: {fileID: 4089409244601945448}
 --- !u!50 &1502927390537098438
 Rigidbody2D:
   serializedVersion: 4

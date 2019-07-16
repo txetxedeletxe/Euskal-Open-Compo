@@ -6,22 +6,28 @@ public class Lazer : MonoBehaviour{
   public GameObject lazerBeam;
   private float lazerSize;
   public GameObject laserChild;
+
   // private float lazerSizex;
   // private float lazerSizeY;
     // Start is called before the first frame update
     void Start()
     {
       lazerSize=0.1f*32f;// 32 * 0.1"scale"
-      if(transform.position.x>=-50f){
+      if(transform.rotation.z == 0){
         laserChild = Instantiate(lazerBeam, new Vector3(transform.position.x-lazerSize,transform.position.y,transform.position.z), transform.rotation);
+      }else if(transform.rotation.z == 90){
+        laserChild = Instantiate(lazerBeam, new Vector3(transform.position.x,transform.position.y-lazerSize,transform.position.z), transform.rotation);
+      }else if(transform.rotation.z == 180){
+        laserChild = Instantiate(lazerBeam, new Vector3(transform.position.x+lazerSize,transform.position.y,transform.position.z), transform.rotation);
+      }else if (transform.rotation.z == 270){
+        laserChild = Instantiate(lazerBeam, new Vector3(transform.position.x,transform.position.y+lazerSize,transform.position.z), transform.rotation);
       }
     }
 
+
     // Update is called once per frame
-    void Update()
-    {
-      }
-    private  void OnTriggerEnter2D(Collider2D hitInfo){
+    void Update(){}
+    private void OnTriggerEnter2D(Collider2D hitInfo){
       if (hitInfo.transform.tag != "player" && hitInfo.transform.tag != "bullet"){
         suicide();
       }
