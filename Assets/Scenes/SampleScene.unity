@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c2ef8c540cdd919bd8589f2a294cef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lizard: {fileID: 2003784455}
 --- !u!212 &498522833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -188,7 +189,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 01d8e84049d488348bee36f1144e4c7f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: da0dfa3ae1b7d67a9ba99e785ada441b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -199,75 +200,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &505916333
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4089409244601945448, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_Name
-      value: Lazer
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 52.269234
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 56.210037
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089409244601945451, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3d2124b02f5f8fb28a7bb44b5804cd7c, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +497,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &598658402
 PrefabInstance:
@@ -1032,7 +964,7 @@ Transform:
   - {fileID: 1296268570}
   - {fileID: 1818155020}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1711870281 stripped
 Transform:
@@ -1591,7 +1523,7 @@ PrefabInstance:
     - target: {fileID: 2606794024528390617, guid: 7900e79b4b7d356499f845b1a1f03508,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2606794024528390617, guid: 7900e79b4b7d356499f845b1a1f03508,
         type: 3}
