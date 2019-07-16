@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: bc9c7af61b32bc80c991e8e7b0d102e6
+guid: c703359642496b840885a42b29b7bc5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1263083108155104869
-    second: LizardJump_0
+      213: -5146992139267073955
+    second: LizardRun_noTurret_0
   - first:
-      213: -6145026709759492372
-    second: LizardJump_1
+      213: 6691161834057484400
+    second: LizardRun_noTurret_1
   - first:
-      213: -1033913762714566242
-    second: LizardJump_2
+      213: -1468573919589718466
+    second: LizardRun_noTurret_2
   - first:
-      213: -6605606108049452832
-    second: LizardJump_3
+      213: 6997924814700000821
+    second: LizardRun_noTurret_3
+  - first:
+      213: 986984443619931999
+    second: LizardRun_noTurret_4
+  - first:
+      213: -2110586761872613731
+    second: LizardRun_noTurret_5
+  - first:
+      213: 8332547909105403641
+    second: LizardRun_noTurret_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -99,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LizardJump_0
+      name: LizardRun_noTurret_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 38
-        height: 37
+        width: 89
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f9f2de3a9326949b1938f90ca49f84
-      internalID: 1263083108155104869
+      spriteID: 77c2e1dbfc3d19f459d7a326cb27b4bb
+      internalID: -5146992139267073955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LizardJump_1
+      name: LizardRun_noTurret_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 89
         y: 0
-        width: 38
-        height: 37
+        width: 89
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ff662b4bb74fc4aabb7e0b9ac59cda
-      internalID: -6145026709759492372
+      spriteID: bb917b3320673324dab9e1704f3199c0
+      internalID: 6691161834057484400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LizardJump_2
+      name: LizardRun_noTurret_2
       rect:
         serializedVersion: 2
-        x: 76
+        x: 178
         y: 0
-        width: 38
-        height: 37
+        width: 89
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d157d337ba870a4bac0393bfadd57a3
-      internalID: -1033913762714566242
+      spriteID: 9ca41dbfa8795a84fbc7fc48b183eec0
+      internalID: -1468573919589718466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LizardJump_3
+      name: LizardRun_noTurret_3
       rect:
         serializedVersion: 2
-        x: 114
+        x: 267
         y: 0
-        width: 38
-        height: 37
+        width: 89
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,8 +208,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 770e314daf2232c4488af4b1def63492
-      internalID: -6605606108049452832
+      spriteID: 2fdfbe11b622d1047a15a5fd265c1778
+      internalID: 6997924814700000821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LizardRun_noTurret_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 89
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa43218d92bb294b9af2490aa066305
+      internalID: 986984443619931999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LizardRun_noTurret_5
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 0
+        width: 89
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28953deb09364dc4b9e86fd70fbed642
+      internalID: -2110586761872613731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LizardRun_noTurret_6
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0
+        width: 89
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc9e565c1d7f0e4c8dab00d391b1794
+      internalID: 8332547909105403641
       vertices: []
       indices: 
       edges: []

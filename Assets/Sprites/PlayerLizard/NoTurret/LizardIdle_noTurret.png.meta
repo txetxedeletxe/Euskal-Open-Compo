@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: bc9c7af61b32bc80c991e8e7b0d102e6
+guid: f51860e735801f74d915ae378344c2db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1263083108155104869
-    second: LizardJump_0
+      213: -69506383542882014
+    second: LizardIdle_noTurret_0
   - first:
-      213: -6145026709759492372
-    second: LizardJump_1
+      213: 3888150339278265195
+    second: LizardIdle_noTurret_1
   - first:
-      213: -1033913762714566242
-    second: LizardJump_2
+      213: -6546483364009168626
+    second: LizardIdle_noTurret_2
   - first:
-      213: -6605606108049452832
-    second: LizardJump_3
+      213: 8361734785308414684
+    second: LizardIdle_noTurret_3
+  - first:
+      213: 2810330649628355365
+    second: LizardIdle_noTurret_4
+  - first:
+      213: -3531313225092291012
+    second: LizardIdle_noTurret_5
+  - first:
+      213: 5632224182154225709
+    second: LizardIdle_noTurret_6
+  - first:
+      213: -5632221372937324740
+    second: LizardIdle_noTurret_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LizardJump_0
+      name: LizardIdle_noTurret_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 38
-        height: 37
+        width: 40
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f9f2de3a9326949b1938f90ca49f84
-      internalID: 1263083108155104869
+      spriteID: 5138c74cbf4ef8d4da3be32e6ea1195c
+      internalID: -69506383542882014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LizardJump_1
+      name: LizardIdle_noTurret_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 40
         y: 0
-        width: 38
-        height: 37
+        width: 40
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ff662b4bb74fc4aabb7e0b9ac59cda
-      internalID: -6145026709759492372
+      spriteID: 66f71b21a1091c647aa08444c59cde9f
+      internalID: 3888150339278265195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LizardJump_2
+      name: LizardIdle_noTurret_2
       rect:
         serializedVersion: 2
-        x: 76
+        x: 80
         y: 0
-        width: 38
-        height: 37
+        width: 40
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d157d337ba870a4bac0393bfadd57a3
-      internalID: -1033913762714566242
+      spriteID: 28fe4101fe80f7f4389d06804f9e6fff
+      internalID: -6546483364009168626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LizardJump_3
+      name: LizardIdle_noTurret_3
       rect:
         serializedVersion: 2
-        x: 114
+        x: 120
         y: 0
-        width: 38
-        height: 37
+        width: 40
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,8 +211,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 770e314daf2232c4488af4b1def63492
-      internalID: -6605606108049452832
+      spriteID: 78116f7690ef9934a9f45820898a0f14
+      internalID: 8361734785308414684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LizardIdle_noTurret_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c0754a8f600b7439b5ee1781636ed8
+      internalID: 2810330649628355365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LizardIdle_noTurret_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b15c3d29d83825488223c34b8c830f9
+      internalID: -3531313225092291012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LizardIdle_noTurret_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7041306f0688fa4ea73b43a9641e642
+      internalID: 5632224182154225709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LizardIdle_noTurret_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4912ac60341ff4a4e86996b6bdfd8fd4
+      internalID: -5632221372937324740
       vertices: []
       indices: 
       edges: []

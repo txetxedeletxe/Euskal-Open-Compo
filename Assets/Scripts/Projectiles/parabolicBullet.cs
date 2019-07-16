@@ -7,6 +7,7 @@ public class parabolicBullet : MonoBehaviour
     // Start is called before the first frame update
     private Rigidbody2D rb;
      public GameObject impactEffect;
+    public GameObject crabGrenadeExplosion;
     public float horizontalMoveForce = 100f;
     public float jumpForce = 200f;
     void Start()
@@ -23,6 +24,8 @@ public class parabolicBullet : MonoBehaviour
     private void OnCollisionEnter2D (Collision2D  hitInfo) {
       // Debug.Log(hitInfo.name);
       if (hitInfo.transform.tag != "bullet"){
+
+      Instantiate(crabGrenadeExplosion, transform.position, transform.rotation);
        Instantiate(impactEffect, transform.position,  Quaternion.Euler(0,0,0));
        Instantiate(impactEffect, transform.position,  Quaternion.Euler(0,0,30));
        Instantiate(impactEffect, transform.position,  Quaternion.Euler(0,0,60));
