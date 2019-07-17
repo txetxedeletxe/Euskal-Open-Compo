@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5135363280120690151}
   m_Layer: 0
   m_Name: BulletEffect
-  m_TagString: Untagged
+  m_TagString: weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -10,7 +10,6 @@ public class LivesCount : MonoBehaviour
     // Update is called once per frame
     void Update(){}
     private void OnTriggerEnter2D(Collider2D hitInfo) {
-      Debug.Log(hitInfo.transform.tag);
       if (hitInfo.transform.tag == "weapon"){
           lives -= 1;
           Debug.Log(lives);
