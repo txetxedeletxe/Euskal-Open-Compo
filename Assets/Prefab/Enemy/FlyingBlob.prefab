@@ -46,6 +46,7 @@ MonoBehaviour:
   projectile: {fileID: 1047662810330884466, guid: 2b8780c2743ff628dba5e2026fce353d,
     type: 3}
   cadency: 1
+  canAttack: 0
 --- !u!1 &3274870199827518927
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +93,7 @@ MonoBehaviour:
   projectile: {fileID: 1047662810330884466, guid: 2b8780c2743ff628dba5e2026fce353d,
     type: 3}
   cadency: 1
+  canAttack: 0
 --- !u!1 &3274870199860671575
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +140,7 @@ MonoBehaviour:
   projectile: {fileID: 1047662810330884466, guid: 2b8780c2743ff628dba5e2026fce353d,
     type: 3}
   cadency: 1
+  canAttack: 0
 --- !u!1 &3274870199952107713
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205785786ff845c4ebe38ba3cf437d94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cadency: 1
 --- !u!61 &3274870199952107712
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -340,6 +344,7 @@ MonoBehaviour:
   projectile: {fileID: 1047662810330884466, guid: 2b8780c2743ff628dba5e2026fce353d,
     type: 3}
   cadency: 1
+  canAttack: 0
 --- !u!1 &3274870200632646909
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +391,7 @@ MonoBehaviour:
   projectile: {fileID: 1047662810330884466, guid: 2b8780c2743ff628dba5e2026fce353d,
     type: 3}
   cadency: 1
+  canAttack: 0
 --- !u!1 &3274870201588939385
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +403,7 @@ GameObject:
   - component: {fileID: 3274870201588939384}
   - component: {fileID: 3274870201588939391}
   - component: {fileID: 3274870201588939390}
+  - component: {fileID: 5279543548236787524}
   m_Layer: 0
   m_Name: Master FirePoint
   m_TagString: Untagged
@@ -461,6 +468,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &5279543548236787524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3274870201588939385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e1eca43b7cdc2b7a190085743595c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3274870201799746876
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,3 +526,4 @@ MonoBehaviour:
   projectile: {fileID: 1047662810330884466, guid: 2b8780c2743ff628dba5e2026fce353d,
     type: 3}
   cadency: 1
+  canAttack: 0

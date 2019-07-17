@@ -7,11 +7,14 @@ public class FlyingBlob : MonoBehaviour
     // Start is called before the first frame update
     private GameObject masterFirePoint;
     private Rigidbody2D rb2d;
+    private MasterFirepoint  mFirepoint;
+    public float cadency;
 
     void Start()
     {
-
         masterFirePoint = this.gameObject.transform.GetChild(0).gameObject;
+        mFirepoint = masterFirePoint.GetComponent<MasterFirepoint>();
+        mFirepoint.prepareAttack(cadency);
       }
     // Update is called once per frame
     void FixedUpdate()

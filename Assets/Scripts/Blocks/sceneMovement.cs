@@ -8,6 +8,7 @@ public class sceneMovement : MonoBehaviour
     protected
     private Camera cam;
     public float camwidth;
+    public float speed;
     void Start()
     {
       cam = transform.parent.gameObject.GetComponent<Camera>();
@@ -19,8 +20,8 @@ public class sceneMovement : MonoBehaviour
     void FixedUpdate()
     {
       foreach (Transform ts in gameObject.GetComponentsInChildren<Transform>()){
-        ts.gameObject.transform.Translate(-3f* Time.fixedDeltaTime,0f,0f);
+        ts.gameObject.transform.Translate(-speed* Time.fixedDeltaTime,0f,0f);
       }
-      transform.Translate(3f*Time.fixedDeltaTime,0f,0f);//por alguna razon bera be mobitzen da bestela
+      transform.Translate(speed*Time.fixedDeltaTime,0f,0f);//por alguna razon bera be mobitzen da bestela
     }
 }

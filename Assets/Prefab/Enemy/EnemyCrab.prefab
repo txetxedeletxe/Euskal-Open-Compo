@@ -45,6 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 7833973113163524116, guid: 3e8f3989e310023c0bd270318ad52154,
     type: 3}
+  cadency: 7
+  canAttack: 0
 --- !u!1 &1558683220276204690
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +165,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -20.186832}
@@ -189,7 +191,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 3.5718307, y: 7.9091873}
