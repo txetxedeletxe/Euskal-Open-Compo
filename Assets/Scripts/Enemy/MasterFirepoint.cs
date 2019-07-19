@@ -9,14 +9,14 @@ public class MasterFirepoint : MonoBehaviour
     // Update is called once per frame
     void Update(){}
 
-    public void prepareAttack(float cadencyUpdate){
-      foreach (Transform ts in gameObject.GetComponentsInChildren<Transform>()){
+    public void enableAttack(float cadencyUpdate){
+      foreach (FirePoint ts in gameObject.GetComponentsInChildren<FirePoint>()){
         ts.gameObject.GetComponent<FirePoint>().cadency = cadencyUpdate;
         ts.gameObject.GetComponent<FirePoint>().canAttack = true;
       }
     }
     public void disableAttack(){
-      foreach (Transform ts in gameObject.GetComponentsInChildren<Transform>()){
+      foreach (FirePoint ts in gameObject.GetComponentsInChildren<FirePoint>()){
         ts.gameObject.GetComponent<FirePoint>().canAttack = false;
       }
     }
