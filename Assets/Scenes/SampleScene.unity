@@ -1137,6 +1137,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1558683220276204680, guid: ef4b5b3b372f63e48b1c7bf76c9dda24,
+        type: 3}
+      propertyPath: cadency
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef4b5b3b372f63e48b1c7bf76c9dda24, type: 3}
 --- !u!1001 &2037044543
@@ -1219,6 +1224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlyingBlob
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274870199952107713, guid: f3c044db2ac3f96c6a8ffb28be654943,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3274870199952107723, guid: f3c044db2ac3f96c6a8ffb28be654943,
         type: 3}

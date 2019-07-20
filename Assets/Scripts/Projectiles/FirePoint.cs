@@ -21,7 +21,8 @@ public class FirePoint : MonoBehaviour
         if( time >= cadency){
           time =0;
           spawnProjectile();
-        }
+                
+            }
     }
     }
 

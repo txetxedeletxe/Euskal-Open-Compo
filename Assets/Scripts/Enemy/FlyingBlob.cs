@@ -8,6 +8,7 @@ public class FlyingBlob : MonoBehaviour
     //public GameObject Player;
     private GameObject masterFirePoint;
     private Rigidbody2D rb2d;
+    private Animator anim;
     private MasterFirepoint  mFirepoint;
     public float cadency;
     private Vector3 PlayerDirection;
@@ -16,6 +17,7 @@ public class FlyingBlob : MonoBehaviour
 
     void Start()
     {
+        anim = gameObject.GetComponent<Animator>();
         masterFirePoint = this.gameObject.transform.GetChild(0).gameObject;
         mFirepoint = masterFirePoint.GetComponent<MasterFirepoint>();
         mFirepoint.enableAttack(cadency);
@@ -27,9 +29,15 @@ public class FlyingBlob : MonoBehaviour
         if (prob >= 0.8f)
         {
             mFirepoint.enableAttack(cadency);
-           
-            
-        } else mFirepoint.disableAttack();
+            anim.SetBool("Attacking", true);
+
+
+        }
+        else
+        {
+            anim.SetBool("Attacking", false);
+            mFirepoint.disableAttack();
+        }
 
 
         

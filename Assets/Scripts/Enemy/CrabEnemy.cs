@@ -9,9 +9,11 @@ public class CrabEnemy : MonoBehaviour
     private MasterFirepoint mFirepoint;
     public float cadency;
     private GameObject firePoint;
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+        anim = gameObject.GetComponent<Animator>();
         masterFirePoint = this.gameObject.transform.GetChild(0).gameObject;
         mFirepoint = masterFirePoint.GetComponent<MasterFirepoint>();
         mFirepoint.enableAttack(cadency);
@@ -23,10 +25,15 @@ public class CrabEnemy : MonoBehaviour
         if (prob >= 0.8f)
         {
             mFirepoint.enableAttack(cadency);
+            anim.SetBool("Attac", true);
 
 
         }
-        else mFirepoint.disableAttack();
+        else
+        {
+            anim.SetBool("Attac", false);
+            mFirepoint.disableAttack();
+        }
     }
 
 }
