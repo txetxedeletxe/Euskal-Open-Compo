@@ -23,12 +23,12 @@ public class BackgroundController : MonoBehaviour
 
         if (center1)
         {
-            Background2.position = new Vector3(Background1.position.x + 600f, 0f,depth);
+            Background2.position = new Vector3(Background1.position.x + 600f, transform.position.y,depth);
             center1 = !center1;
         }
         if (center2)
         {
-            Background1.position = new Vector3(Background2.position.x + 600f, 0f, depth);
+            Background1.position = new Vector3(Background2.position.x + 600f, transform.position.y, depth);
             center2 = !center2;
         }
 
