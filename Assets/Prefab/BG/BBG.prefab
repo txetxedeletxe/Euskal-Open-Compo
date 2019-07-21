@@ -1066,7 +1066,7 @@ MonoBehaviour:
   Background2: {fileID: 2561507188224524226}
   cam: {fileID: 0}
   depth: 90
-  speed: 0.4
+  speed: 0.25
 --- !u!1 &6319770541157521442
 GameObject:
   m_ObjectHideFlags: 0
