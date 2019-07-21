@@ -37,8 +37,8 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      sizeUp =0f;
-      sizeDown=0f;
+      sizeUp =3*32f;
+      sizeDown=3*32f;
 
       yDown =-38f;
       yUp = 26f;
@@ -48,7 +48,7 @@ public class Spawner : MonoBehaviour
       backGround=0;
       randomPrefab =Mathf.RoundToInt(Random.Range(-0.5f,5.5f));
 
-      spawningUp=false;
+      spawningUp=true;
       spawningDown=false;
 
       brother = transform.parent.GetChild(0).gameObject;
@@ -75,7 +75,7 @@ public class Spawner : MonoBehaviour
         spawningUp=true;
         timeUp=0f;
       }else{
-        if (timeUp >= sizeUp/speed){
+        if (timeUp >= 1.5f*sizeUp/speed){
           spawningUp= false;
         }else{
           timeUp += Time.fixedDeltaTime;
@@ -93,7 +93,7 @@ public class Spawner : MonoBehaviour
         spawningDown=true;
         timeDown=0f;
       }else{
-        if (timeDown >= sizeDown/speed){
+        if (timeDown >= 1.2f*sizeDown/speed){
           spawningDown= false;
         }else{
           timeDown += Time.fixedDeltaTime;
@@ -113,31 +113,26 @@ public class Spawner : MonoBehaviour
       if( backGround==0){//0 = desert
           if(randomPrefab ==0){// 0 = L
             prefab =desertL;
-            size = 2*32f;
+            // size = 2*32f;
           }else if(randomPrefab ==1){
             prefab = estandarDesesert;
-            size = 3*32f;
+            // size = 3*32f;
           }else if(randomPrefab ==2){
             prefab = desesertShield;
-            size = 1*32f;
+            // size = 1*32f;
           }else if(randomPrefab ==3){
             prefab = desesertDoublePlattform;
-            size = 4*32f;
+            // size = 4*32f;
           }else if(randomPrefab ==4){
             prefab = desesertU;
-            size = 3*32f;
+            // size = 3*32f;
           }else{
             prefab = desertL;
-            size = 2*32f;
+            // size = 2*32f;
           }
       }else{
         prefab = desertL;
-        size = 2*32f;
-      }
-      if(up){
-        sizeUp=size;
-      }else{
-        sizeDown=size;
+        // size = 2*32f;
       }
       return prefab;
     }
