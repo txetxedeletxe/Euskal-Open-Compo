@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CrabgrenadeExplosion : MonoBehaviour{
 
-        private float deathTime = 0.1f;
+        public float deathTime ;
         // Start is called before the first frame update
         void Start()
         {

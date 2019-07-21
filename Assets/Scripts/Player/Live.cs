@@ -25,11 +25,13 @@ public class Live : MonoBehaviour
       }
     }
     private void OnTriggerEnter2D(Collider2D hitInfo) {
+
       if(canBeHit){
         if (hitInfo.transform.tag == "bullet"){
             canBeHit=false;
             countDown=1.5f;
             lives -= 1;
+            Debug.Log(lives);
             liveBars.GetComponent<LifeControler>().removeLife();
           }
         }
