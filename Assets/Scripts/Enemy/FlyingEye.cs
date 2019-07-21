@@ -18,12 +18,13 @@ public class FlyingEye : MonoBehaviour
     void Start()
     {
       anim = gameObject.GetComponent<Animator>();
+      rb2d = gameObject.GetComponent<Rigidbody2D>();
     }
     // Update is called once per frame
     void FixedUpdate()
     {
         PlayerDirection = new Vector3(Player.transform.position.x - this.transform.position.x, Player.transform.position.y - this.transform.position.y, this.transform.position.z);
-        transform.Translate(PlayerDirection * 0.02f + new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f)), 0f);
+        rb2d.AddForce(PlayerDirection * 0.02f + new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f)), 0f);
 
         if(!hasTurned){
 
@@ -31,9 +32,9 @@ public class FlyingEye : MonoBehaviour
           if( distance <20f){
             hasTurned =true;
             timer = 3f;
+            anim.SetBool("kamikaze", true);
           }
         }else{
-          anim.SetBool("DamageTaken", true);
          timer -= Time.fixedDeltaTime;
          if (timer <=0){
            Instantiate(explosion,transform.position,transform.rotation);

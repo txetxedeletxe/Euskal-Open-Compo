@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4002291076382509597}
   - component: {fileID: 3819558555692290006}
   - component: {fileID: 2218418971637872555}
+  - component: {fileID: 5097094469152784673}
   m_Layer: 0
   m_Name: FlyingEye
   m_TagString: enemy
@@ -148,3 +149,24 @@ MonoBehaviour:
   Player: {fileID: 0}
   explosion: {fileID: 718757596558877589, guid: e196ad7769db42b39958b26fa3e4bcd2,
     type: 3}
+--- !u!50 &5097094469152784673
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092910946785649886}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0.5
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

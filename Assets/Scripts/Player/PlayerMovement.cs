@@ -80,8 +80,13 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == "ground"){
+          Collider2D collider = collision.collider;
+          Vector3 contactPoint = collision.contacts[0].point;
+          Vector3 contactCenter = collider.bounds.center;
+          if(contactPoint.y> contactCenter.y){
             canJump = true;
             anim.SetBool("Jump", false);
+          }
         }
     }
 }
