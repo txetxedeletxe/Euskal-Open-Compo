@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("Jump", true);
 
         }
-      
+
         if (!Input.GetKey("left") && !Input.GetKey("right")) {
             anim.SetBool("Run", false);
         }

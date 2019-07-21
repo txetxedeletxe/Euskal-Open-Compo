@@ -12,7 +12,7 @@ public class BlockDestroyer : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        width = transform.parent.GetComponent<sceneMovement>().camwidth;
+        width = transform.parent.parent.GetComponent<sceneMovement>().camwidth;
         if( width!=0){
           if(transform.localPosition.x<=(-width/2f -32f)){
             Destroy(gameObject);

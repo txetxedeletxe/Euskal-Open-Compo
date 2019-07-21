@@ -31,7 +31,7 @@ public class CrabEnemy : MonoBehaviour
         }
         else
         {
-            anim.SetBool("Attac", false);
+          //  anim.SetBool("Attac", false);
             mFirepoint.disableAttack();
         }
     }
