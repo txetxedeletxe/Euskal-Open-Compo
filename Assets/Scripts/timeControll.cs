@@ -5,16 +5,19 @@ using UnityEngine;
 public class timeControll : MonoBehaviour
 {
   private bool isPaused;
+    public GameObject pause;
 
   private void Pause(){
     if(Input.GetKeyDown("p") && !isPaused){
         Debug.Log("pause");
+            pause.SetActive(true);
         Time.timeScale = 0.0000001f;
         isPaused = true;
     }
     else if(Input.GetKeyDown("p") && isPaused){
         Debug.Log("Un Paused");
-        Time.timeScale = 1.1f;
+            pause.SetActive(false);
+            Time.timeScale = 1.1f;
         isPaused = false;
     }
 }
