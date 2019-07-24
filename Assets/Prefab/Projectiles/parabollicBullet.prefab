@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7833973113163524137}
   - component: {fileID: 7833973113163524138}
   - component: {fileID: 7833973113163524139}
+  - component: {fileID: 5869037414333410067}
   m_Layer: 0
   m_Name: parabollicBullet
   m_TagString: bullet
@@ -148,3 +149,15 @@ MonoBehaviour:
     type: 3}
   horizontalMoveForce: -100
   jumpForce: 200
+--- !u!114 &5869037414333410067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833973113163524116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7714048c514cf5b30aa8a42e5f7b6aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

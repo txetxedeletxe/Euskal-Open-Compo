@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3112539294430551206}
   - component: {fileID: 3112539294430551201}
   - component: {fileID: 3112539294430551200}
+  - component: {fileID: 2634052565850058552}
   m_Layer: 0
   m_Name: sinusoidalBullet
   m_TagString: bullet
@@ -144,3 +145,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -50
   jumpForce: 20
+--- !u!114 &2634052565850058552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3112539294430551203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7714048c514cf5b30aa8a42e5f7b6aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
