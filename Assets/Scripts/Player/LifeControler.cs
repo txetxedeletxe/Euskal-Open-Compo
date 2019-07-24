@@ -11,9 +11,9 @@ public class LifeControler : MonoBehaviour
   private int barCount;
     // Start is called before the first frame update
     void Start(){
-    
+
       cam = transform.parent.gameObject.GetComponent<Camera>();
-      
+
       float height = 2f * cam.orthographicSize;
       float  camwidth = height * cam.aspect;
       transform.localPosition = new Vector3(-camwidth/2 +5f, height/2 -12f,1f);
@@ -41,21 +41,14 @@ public class LifeControler : MonoBehaviour
 
     public void removeLife()
     {
-
-        //prelastbar = lastbar;
-        //Destroy(lastbar);
-
-        //barCount -= 1;
-
         if (barCount != 1)
         {
+          Destroy(lastbar);
+          lastbar = prelastbar;
             if (barCount != 2)
             {
-                prelastbar = prelastbar.transform.gameObject;
+                prelastbar = prelastbar.transform.parent.gameObject;
             }
-            prelastbar = lastbar;
-            Destroy(lastbar);
-
             barCount -= 1;
         }
 
