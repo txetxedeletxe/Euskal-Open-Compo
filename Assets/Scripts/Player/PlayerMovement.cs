@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private SpriteRenderer renderer;
 
+    private float camWidth;
+
     // Start is called before the first frame update;
     void Start()
     {
@@ -30,11 +32,19 @@ public class PlayerMovement : MonoBehaviour
         canJump = false;
         facingRight = true;
         gonnaJump  = false;
+
+        Camera cam = transform.parent.gameObject.GetComponent<Camera>();
+        float height = 2f * cam.orthographicSize;
+        camWidth = height * cam.aspect;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+      if(transform.localPosition.x <=((-camWidth/2)-10f) || transform.localPosition.x >= ((camWidth/2)+10f)){
+        gameObject.GetComponent<Live>().hit();
+        transform.localPosition = new Vector3(0f,-68,1f);
+      }
         if (Input.GetKey("left"))
         {
             rb2d.AddForce(new Vector2(-horizontalMoveForce * Time.fixedDeltaTime, 0));

@@ -44,14 +44,17 @@ public class Live : MonoBehaviour
         {
             if (hitInfo.transform.tag == "bullet")
             {
-                canBeHit = false;
-                countDown = 1.5f;
-               
-                lives -= 1;
-                liveBars.GetComponent<LifeControler>().removeLife();
-
+              hit();
 
             }
         }
+    }
+    public void hit(){
+      canBeHit = false;
+      countDown = 1.5f;
+
+      lives -= 1;
+      liveBars.GetComponent<LifeControler>().removeLife();
+
     }
 }
