@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-07-15T21:56:31.410+02:00
-  initializedAtString: 2019-07-15T21:56:31.410+02:00
+  lastUpdatedAtString: 2019-07-24T23:38:22.287+02:00
+  initializedAtString: 2019-07-24T23:38:22.287+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/sophyelord/Euskal-Open-Compo.git

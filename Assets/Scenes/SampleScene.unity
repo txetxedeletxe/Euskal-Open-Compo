@@ -189,6 +189,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 915ca742e01c0ecdcb3b65cbf85f1123, type: 3}
+--- !u!1 &48237998 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 103595715, guid: 867c347b419606147b6ce09fe2e42fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7528765765974630842}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &177716216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,6 +374,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -383,6 +390,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fe0d2b5d99b81249909defee3f52c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -790,6 +809,7 @@ GameObject:
   - component: {fileID: 957676552}
   - component: {fileID: 957676551}
   - component: {fileID: 957676553}
+  - component: {fileID: 957676554}
   m_Layer: 0
   m_Name: scripter
   m_TagString: Untagged
@@ -837,8 +857,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlockScene: {fileID: 671498669}
-  speedSum: 3
+  speedSum: 1
   totalSpeed: 0
+--- !u!114 &957676554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957676550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89bee62e24eead844ad88915139d87f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 1255254951}
+  jungle: {fileID: 1608211534}
+  ruins: {fileID: 994786176}
+  desert: {fileID: 48237998}
+--- !u!1 &994786176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4289931961705010323, guid: faf8e6cc669f3ac48860f2d6deb1e839,
+    type: 3}
+  m_PrefabInstance: {fileID: 982899753262170881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1081254818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1241,6 +1283,12 @@ CanvasRenderer:
 --- !u!4 &1540060962 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7528765765783876801, guid: 867c347b419606147b6ce09fe2e42fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7528765765974630842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1608211534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5989278662440544711, guid: 867c347b419606147b6ce09fe2e42fc2,
     type: 3}
   m_PrefabInstance: {fileID: 7528765765974630842}
   m_PrefabAsset: {fileID: 0}
