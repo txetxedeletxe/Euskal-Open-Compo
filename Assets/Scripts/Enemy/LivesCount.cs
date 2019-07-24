@@ -34,7 +34,6 @@ public class LivesCount : MonoBehaviour
             timer =0f;
             if (lives <= 0)
             {
-                GameController.updateEnemyCount();
                 ScoreScript.scoreValue += 100;
                 Destroy(gameObject);
             }
