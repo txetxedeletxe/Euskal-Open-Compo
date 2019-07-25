@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject spawner;
+   private GameObject spawner;
     public GameObject jungle;
     public GameObject ruins;
     public GameObject desert;
@@ -16,20 +16,24 @@ public class GameController : MonoBehaviour
     float cadency;
     private bool start;
     private int enemyTypes;
+    private int enemySet;
     // Start is called before the first frame update
     void Start()
     {
-        enemyCount = 1;
+        enemySet =1;
+        spawner = transform.parent.GetChild(1).gameObject;
+        enemyCount = enemySet;
         type = 1;
         cadency = 1;
         start = true;
-        
-        
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        enemyCount = spawner.GetComponent<EnemySpawner>().spawnedCount;
         if (start)
         {
             for(int i=0; i<=enemyCount; i++) {
@@ -45,7 +49,7 @@ public class GameController : MonoBehaviour
             {
                 jungle.SetActive(false);
                 ruins.SetActive(true);
-               
+
             } else if (!jungle.activeSelf && ruins.activeSelf && !desert.activeSelf)
             {
                 ruins.SetActive(false);
@@ -62,7 +66,9 @@ public class GameController : MonoBehaviour
 
         if (enemyCount <= 0)
         {
+          enemySet +=1;
             start = true;
+            enemyCount = enemySet;
         }
     }
 

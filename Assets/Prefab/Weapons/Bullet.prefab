@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6569378377309619272}
   - component: {fileID: 7051780598705354663}
   - component: {fileID: 3490021449653940592}
+  - component: {fileID: 6536400055536197411}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: weapon
@@ -146,3 +147,15 @@ MonoBehaviour:
   rb: {fileID: 6569378377309619272}
   impactEffect: {fileID: 1312130100676251269, guid: dc4072e625b022c4db6a1d394b478481,
     type: 3}
+--- !u!114 &6536400055536197411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265201815317412937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7714048c514cf5b30aa8a42e5f7b6aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
