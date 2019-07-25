@@ -13,18 +13,20 @@ public class GameController : MonoBehaviour
     int enemyCount;
     int type;
     float speed;
-    float cadency;
     private bool start;
     private int enemyTypes;
     private int enemySet;
+    private float cadencyMultiplyer;
+    private float cadencyChange;
     // Start is called before the first frame update
     void Start()
     {
+      cadencyMultiplyer =1f;
+      cadencyChange =0.8f;
         enemySet =1;
         spawner = transform.parent.GetChild(1).gameObject;
         enemyCount = enemySet;
         type = 1;
-        cadency = 1;
         start = true;
         enemyTypes = 4;
 
@@ -38,12 +40,11 @@ public class GameController : MonoBehaviour
         {
             for(int i=0; i<=enemyCount; i++) {
                 type = Mathf.RoundToInt(Random.Range(-0.5f, enemyTypes-0.5f));
-                spawner.GetComponent<EnemySpawner>().spawnEnemy(cadency, type);
+                spawner.GetComponent<EnemySpawner>().spawnEnemy(cadencyMultiplyer, type);
             }
 
             gameObject.GetComponent<SpeedController>().updateSpeed();
             enemyCount++;
-            cadency-=0.02f;
 
             if (jungle.activeSelf && !ruins.activeSelf && !desert.activeSelf)
             {
@@ -69,6 +70,7 @@ public class GameController : MonoBehaviour
 
         if (enemyCount <= 0)
         {
+          cadencyMultiplyer =cadencyMultiplyer *cadencyChange;
           enemySet +=1;
             start = true;
             enemyCount = enemySet;
