@@ -7,7 +7,7 @@ public class sinusoidalBullet : MonoBehaviour
     // Start is called before the first frame update
     public float speed = -100f;
     public float jumpForce = 20f;
-    private float movingPos=1.5f;
+    private float movingPos=0.5f;
     private Rigidbody2D rb;
     void Start()
     {
@@ -19,12 +19,12 @@ public class sinusoidalBullet : MonoBehaviour
     void FixedUpdate()
     {
       movingPos += Time.fixedDeltaTime;
-      if (movingPos<1.5){
+      if (movingPos<0.5){
         gameObject.transform.Translate(0f,-jumpForce * Time.fixedDeltaTime,0f);
 
       }else{
         gameObject.transform.Translate(0f,jumpForce * Time.fixedDeltaTime,0f);
-        if (movingPos>=3){
+        if (movingPos>=1){
           movingPos=0;
         }
       }

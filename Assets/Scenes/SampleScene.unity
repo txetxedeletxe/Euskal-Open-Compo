@@ -885,7 +885,7 @@ MonoBehaviour:
   Crab: {fileID: 1558683220276204690, guid: ef4b5b3b372f63e48b1c7bf76c9dda24, type: 3}
   Blob: {fileID: 3274870199952107713, guid: f3c044db2ac3f96c6a8ffb28be654943, type: 3}
   Eye: {fileID: 1092910946785649886, guid: 770f77ef3588a4be3bf2df1d593b092b, type: 3}
-  cafetera: {fileID: 6387313260472035716, guid: 73d168858d06f1983b72ca744fb982ce,
+  cafetera: {fileID: 5537678524543064744, guid: 73d168858d06f1983b72ca744fb982ce,
     type: 3}
   spawnedCount: 0
 --- !u!1 &1269585341 stripped

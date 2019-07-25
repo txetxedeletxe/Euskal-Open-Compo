@@ -30,6 +30,7 @@ public class EnemySpawner : MonoBehaviour
             GameObject crab = Instantiate(Crab, position, this.transform.rotation);
             crab.GetComponent<LivesCount>().scripter = scripter;
             crab.GetComponent<shieldDestroy>().scripter = scripter;
+            crab.GetComponent<CrabEnemy>().Player = player;
             crab.transform.parent = transform;
         }
         else if (type == 1)
@@ -46,6 +47,7 @@ public class EnemySpawner : MonoBehaviour
             eye.GetComponent<LivesCount>().scripter = scripter;
             eye.GetComponent<FlyingEye>().Player = player;
             eye.GetComponent<FlyingEye>().scripter = scripter;
+            eye.GetComponent<shieldDestroy>().scripter = scripter;
             eye.transform.parent = transform;
         }else if (type == 3)
         {
@@ -53,6 +55,7 @@ public class EnemySpawner : MonoBehaviour
           GameObject coffe = Instantiate(cafetera, position, this.transform.rotation);
             coffe.GetComponent<LivesCount>().scripter = scripter;
             coffe.GetComponent<shieldDestroy>().scripter = scripter;
+            coffe.GetComponent<CrabEnemy>().Player = player;
             coffe.transform.parent = transform;
         }
 

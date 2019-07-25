@@ -13,7 +13,8 @@ public class parabolicBullet : MonoBehaviour
     void Start()
     {
           rb = gameObject.GetComponent<Rigidbody2D>();
-          rb.AddForce(new Vector2(horizontalMoveForce, jumpForce));
+          rb.velocity = transform.right * horizontalMoveForce;
+          rb.AddForce(new Vector2(0f, jumpForce));
     }
 
     // Update is called once per frame

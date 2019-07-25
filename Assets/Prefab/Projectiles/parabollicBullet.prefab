@@ -147,7 +147,7 @@ MonoBehaviour:
     type: 3}
   crabGrenadeExplosion: {fileID: 6080333759415595368, guid: 540c356f40908ee4896ec1e828cb1f6b,
     type: 3}
-  horizontalMoveForce: -100
+  horizontalMoveForce: -200
   jumpForce: 200
 --- !u!114 &5869037414333410067
 MonoBehaviour:

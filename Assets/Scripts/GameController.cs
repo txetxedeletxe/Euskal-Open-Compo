@@ -37,7 +37,7 @@ public class GameController : MonoBehaviour
         if (start)
         {
             for(int i=0; i<=enemyCount; i++) {
-                type = Mathf.RoundToInt(Random.Range(-0.5f, enemyTypes-1.5f));
+                type = Mathf.RoundToInt(Random.Range(-0.5f, enemyTypes-0.5f));
                 spawner.GetComponent<EnemySpawner>().spawnEnemy(cadency, type);
             }
 
