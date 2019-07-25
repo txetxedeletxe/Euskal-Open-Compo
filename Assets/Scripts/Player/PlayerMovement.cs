@@ -96,7 +96,13 @@ public class PlayerMovement : MonoBehaviour
           if(contactPoint.y> contactCenter.y){
             canJump = true;
             anim.SetBool("Jump", false);
+            resetPool();
           }
         }
     }
+    public void resetPool()
+{
+    rg.velocity = Vector3.zero;
+    rg.angularVelocity = Vector3.zero;
+}
 }
