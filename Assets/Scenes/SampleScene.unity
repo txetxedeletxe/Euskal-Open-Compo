@@ -859,6 +859,15 @@ MonoBehaviour:
     type: 3}
   jungleStair: {fileID: 6339282191395110698, guid: 56afc29687ed4215ca249e48c44cb7e4,
     type: 3}
+  ruinV: {fileID: 911478439025050122, guid: 8fc546539aa292d4e9d52d01c734f7cc, type: 3}
+  caveEstandar: {fileID: 1651874729513857607, guid: 9e8b39fbccbbea26888c36dcd4faf5be,
+    type: 3}
+  ruinHole: {fileID: 6147115145218914330, guid: 298e2856cb55ba8b2a0c7e0db1b7f083,
+    type: 3}
+  ruinL: {fileID: 428848698282975512, guid: a9441e2928697f09193bea4859ace18c, type: 3}
+  ruinShield: {fileID: 1437293092664749694, guid: 949c8e36961e3f324aef6cb9e8a19262,
+    type: 3}
+  backGround: 0
 --- !u!114 &1255254954
 MonoBehaviour:
   m_ObjectHideFlags: 0

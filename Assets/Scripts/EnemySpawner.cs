@@ -45,6 +45,7 @@ public class EnemySpawner : MonoBehaviour
             GameObject eye = Instantiate(Eye, position, this.transform.rotation);
             eye.GetComponent<LivesCount>().scripter = scripter;
             eye.GetComponent<FlyingEye>().Player = player;
+            eye.GetComponent<FlyingEye>().scripter = scripter;
             eye.transform.parent = transform;
         }else if (type == 3)
         {

@@ -150,6 +150,7 @@ MonoBehaviour:
   Player: {fileID: 0}
   explosion: {fileID: 718757596558877589, guid: e196ad7769db42b39958b26fa3e4bcd2,
     type: 3}
+  force: 0.75
 --- !u!50 &5097094469152784673
 Rigidbody2D:
   serializedVersion: 4
@@ -170,4 +171,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

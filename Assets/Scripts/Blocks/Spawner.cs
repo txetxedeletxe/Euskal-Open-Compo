@@ -22,6 +22,12 @@ public class Spawner : MonoBehaviour
     public GameObject jungleBowl;
     public GameObject jungleStair;
 
+    public GameObject ruinV;
+    public GameObject caveEstandar;
+    public GameObject ruinHole;
+    public GameObject ruinL;
+    public GameObject ruinShield;
+
 
     private int randomPrefab;
     public int backGround;
@@ -119,40 +125,39 @@ public class Spawner : MonoBehaviour
       if( backGround==0){//0 = desert
           if(randomPrefab ==0){// 0 = L
             prefab =desertL;
-            // size = 2*32f;
           }else if(randomPrefab ==1){
             prefab = estandarDesesert;
-            // size = 3*32f;
           }else if(randomPrefab ==2){
             prefab = desesertShield;
-            // size = 1*32f;
           }else if(randomPrefab ==3){
             prefab = desesertDoublePlattform;
-            // size = 4*32f;
           }else {
             prefab = desesertU;
-            // size = 3*32f;
           }
       }else if (backGround ==1){//1=jungle
         if(randomPrefab ==0){// 0 = L
           prefab =jungleT;
-          // size = 2*32f;
         }else if(randomPrefab ==1){
           prefab = jungleEstandar;
-          // size = 3*32f;
         }else if(randomPrefab ==2){
           prefab = jungleBox;
-          // size = 1*32f;
         }else if(randomPrefab ==3){
           prefab = jungleBowl;
-          // size = 4*32f;
         }else {
           prefab = jungleStair;
-          // size = 3*32f;
         }
       }else{
-        prefab = desertL;
-        // size = 2*32f;
+        if(randomPrefab ==0){// 0 = L
+          prefab =ruinV;
+        }else if(randomPrefab ==1){
+          prefab = caveEstandar;
+        }else if(randomPrefab ==2){
+          prefab = ruinHole;
+        }else if(randomPrefab ==3){
+          prefab = ruinL;
+        }else {
+          prefab = ruinShield;
+        };
       }
       return prefab;
     }
