@@ -20,12 +20,14 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer renderer;
+    private float knockback;
 
     private float camWidth;
 
     // Start is called before the first frame update;
     void Start()
     {
+        knockback = 25f;
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         renderer = gameObject.GetComponent<SpriteRenderer>();
@@ -99,6 +101,14 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("Jump", false);
 
           }
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        if (hitInfo.transform.tag == "enemy") {
+            Vector3 collisionPoint = hitInfo.transform.position;
+            Vector3 newDirection =  new Vector3((transform.position.x - collisionPoint.x), (transform.position.y - collisionPoint.y),0f);
+            rb2d.AddForce(newDirection * knockback);
         }
     }
     public void resetPool()
