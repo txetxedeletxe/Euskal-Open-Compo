@@ -220,7 +220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3e758603abe73cc8f309fb2e56db4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cadency: 0
+  cadency: 0.5
+  Player: {fileID: 0}
 --- !u!114 &1558683220276204688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,6 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 4
+  scripter: {fileID: 0}
 --- !u!50 &1558683220276204689
 Rigidbody2D:
   serializedVersion: 4
@@ -293,6 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c61f4ba1395eb51ccbcbbf3bd27a0dc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scripter: {fileID: 0}
 --- !u!1 &4888268467384627034
 GameObject:
   m_ObjectHideFlags: 0

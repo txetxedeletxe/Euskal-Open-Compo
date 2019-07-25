@@ -87,7 +87,8 @@ public class Spawner : MonoBehaviour
         spawningUp=true;
         timeUp=0f;
       }else{
-        if (timeUp >= 1.5f*sizeUp/speed){
+        if (timeUp >= 1.5f*sizeUp/ (Time.fixedDeltaTime * speed))
+            {
           spawningUp= false;
         }else{
           timeUp += Time.fixedDeltaTime;
@@ -105,7 +106,7 @@ public class Spawner : MonoBehaviour
         spawningDown=true;
         timeDown=0f;
       }else{
-        if (timeDown >= 1.2f*sizeDown/speed){
+        if (timeDown >= 1.2f*sizeDown/(Time.fixedDeltaTime*speed)){
           spawningDown= false;
         }else{
           timeDown += Time.fixedDeltaTime;

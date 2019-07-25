@@ -32,7 +32,7 @@ public class BackgroundController : MonoBehaviour
             center2 = !center2;
         }
 
-        Background1.transform.Translate(-speed, 0f, 0f);
-        Background2.transform.Translate(-speed, 0f, 0f);
+        Background1.transform.Translate(-speed*15*Time.deltaTime, 0f, 0f);
+        Background2.transform.Translate(-speed*15* Time.deltaTime, 0f, 0f);
     }
 }

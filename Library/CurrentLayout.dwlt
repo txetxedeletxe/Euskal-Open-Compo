@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 0
     width: 626
     height: 434
-  m_MinSize: {x: 104, y: 122}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 513
     width: 1360
     height: 434
-  m_MinSize: {x: 336, y: 272}
-  m_MaxSize: {x: 14006, y: 10022}
+  m_MinSize: {x: 332, y: 272}
+  m_MaxSize: {x: 14002, y: 10022}
   vertical: 0
-  controlID: 136
+  controlID: 129
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,10 +95,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 18008, y: 14044}
+  m_MinSize: {x: 681, y: 494}
+  m_MaxSize: {x: 18004, y: 14044}
   vertical: 0
-  controlID: 55
+  controlID: 158
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,8 +145,8 @@ MonoBehaviour:
     y: 0
     width: 408
     height: 513
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -267,8 +267,8 @@ MonoBehaviour:
     y: 0
     width: 1360
     height: 947
-  m_MinSize: {x: 406, y: 494}
-  m_MaxSize: {x: 14006, y: 14044}
+  m_MinSize: {x: 404, y: 494}
+  m_MaxSize: {x: 14002, y: 14044}
   vertical: 1
   controlID: 56
 --- !u!114 &12
@@ -292,8 +292,8 @@ MonoBehaviour:
     y: 0
     width: 1360
     height: 513
-  m_MinSize: {x: 406, y: 222}
-  m_MaxSize: {x: 8006, y: 4022}
+  m_MinSize: {x: 404, y: 222}
+  m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
   controlID: 57
 --- !u!114 &13
@@ -2009,7 +2009,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2019-07-25T01:23:44.479+02:00
+      updatedTimeString: 2019-07-25T19:20:17.976+02:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/sophyelord/Euskal-Open-Compo.git
@@ -2023,7 +2023,7 @@ MonoBehaviour:
       newGitEmail: ex0k0r0s@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2019-07-25T01:23:48.505+02:00
+        updatedTimeString: 2019-07-25T19:21:59.516+02:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -2147,7 +2147,6 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -1825603193722255726, guid: e2be76f5b7aace843a074500b569ae7e, type: 2}
-    - {fileID: 6342289585610160467, guid: c2a2a4976207bef4293b0018652cec1c, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.59166664
       e01: 0
@@ -2165,26 +2164,11 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: e2be76f5b7aace843a074500b569ae7e,
+    type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 6342289585610160467, guid: c2a2a4976207bef4293b0018652cec1c,
+  - m_Target: {fileID: -1825603193722255726, guid: e2be76f5b7aace843a074500b569ae7e,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -2226,7 +2210,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3266
+  m_LastSelectedObjectID: 17644
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2292,20 +2276,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab/Weapons
+    - Assets/Scripts/Blocks
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab/Weapons
+  - Assets/Scripts/Blocks
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\K0r0s\EEOCv\Euskal-Open-Compo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a360000
-    m_LastClickedID: 13882
-    m_ExpandedIDs: 00000000e22e00004c2f00006e320000cc34000000ca9a3b
+    m_SelectedIDs: 62360000
+    m_LastClickedID: 13922
+    m_ExpandedIDs: 00000000062f00000835000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2333,7 +2317,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e22e0000cc340000
+    m_ExpandedIDs: 00000000062f000008350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2454,9 +2438,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 542f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fcf8ffff20f9ffff76fbffff
+      m_ExpandedIDs: 64e7ffff90e7ffff48e8ffff4ce8fffffce8ffffdce9ffff08eaffffc0eaffffc4eaffff74ebffff58ecffff84ecffff3cedffff40edfffff0edffffd2eefffffeeeffffb6efffffbaefffff6af0ffff4cf1ffff78f1ffff30f2ffff34f2ffffe4f2ffffccf3fffff8f3ffffb0f4ffffb4f4ffff64f5ffff8ef6ffffbaf6ffff72f7ffff76f7ffff26f8ffff36fbfffff0430000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2516,9 +2500,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 42.641254, y: -32.104565, z: -17.921875}
+    m_Target: {x: 65.15159, y: -12.67749, z: -4607.9624}
     speed: 2
-    m_Value: {x: 42.641254, y: -32.104565, z: -17.921875}
+    m_Value: {x: 65.15159, y: -12.67749, z: -4607.9624}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2551,9 +2535,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 99.580864
+    m_Target: 434.63654
     speed: 2
-    m_Value: 99.580864
+    m_Value: 434.63654
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2683,6 +2667,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 586
-    width: 1059
+    width: 734
     height: 415
   m_ViewDataDictionary: {fileID: 0}

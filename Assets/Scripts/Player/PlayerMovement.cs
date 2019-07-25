@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
                 facingRight = true;
             }
         }
-        if (Input.GetKeyDown("up") && canJump)
+        if (Input.GetKey("up") && canJump)
         {
             canJump = false;
             gonnaJump = true;
