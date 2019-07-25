@@ -34,8 +34,6 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("enemyCount:" + enemyCount);
-       
         if (start)
         {
             for(int i=0; i<=enemyCount; i++) {
@@ -51,15 +49,18 @@ public class GameController : MonoBehaviour
             {
                 jungle.SetActive(false);
                 ruins.SetActive(true);
+                spawner.GetComponent<Spawner>().backGround=2;
 
             } else if (!jungle.activeSelf && ruins.activeSelf && !desert.activeSelf)
             {
                 ruins.SetActive(false);
                 desert.SetActive(true);
+                spawner.GetComponent<Spawner>().backGround=0;
             } else if (!jungle.activeSelf && !ruins.activeSelf && desert.activeSelf)
             {
                 desert.SetActive(false);
                 jungle.SetActive(true);
+                spawner.GetComponent<Spawner>().backGround=1;
             }
 
 

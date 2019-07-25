@@ -16,9 +16,15 @@ public class Spawner : MonoBehaviour
     public GameObject desesertDoublePlattform;
     public GameObject desesertU;
 
+    public GameObject jungleT;
+    public GameObject jungleEstandar;
+    public GameObject jungleBox;
+    public GameObject jungleBowl;
+    public GameObject jungleStair;
+
 
     private int randomPrefab;
-    private int backGround;
+    public int backGround;
 
     private bool spawningUp;
     private bool spawningDown;
@@ -45,7 +51,7 @@ public class Spawner : MonoBehaviour
 
       timeDown=0f;
       timeUp=0f;
-      backGround=0;
+      backGround=1;
       randomPrefab =Mathf.RoundToInt(Random.Range(-0.5f,5.5f));
 
       spawningUp=true;
@@ -123,13 +129,27 @@ public class Spawner : MonoBehaviour
           }else if(randomPrefab ==3){
             prefab = desesertDoublePlattform;
             // size = 4*32f;
-          }else if(randomPrefab ==4){
+          }else {
             prefab = desesertU;
             // size = 3*32f;
-          }else{
-            prefab = desertL;
-            // size = 2*32f;
           }
+      }else if (backGround ==1){//1=jungle
+        if(randomPrefab ==0){// 0 = L
+          prefab =jungleT;
+          // size = 2*32f;
+        }else if(randomPrefab ==1){
+          prefab = jungleEstandar;
+          // size = 3*32f;
+        }else if(randomPrefab ==2){
+          prefab = jungleBox;
+          // size = 1*32f;
+        }else if(randomPrefab ==3){
+          prefab = jungleBowl;
+          // size = 4*32f;
+        }else {
+          prefab = jungleStair;
+          // size = 3*32f;
+        }
       }else{
         prefab = desertL;
         // size = 2*32f;

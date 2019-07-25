@@ -22,13 +22,6 @@ public class EnemySpawner : MonoBehaviour
        camwidth = height * cam.aspect;
     }
 
-    public void Update(){
-      spawnedCount =0;
-      foreach (Transform ts in gameObject.GetComponentsInChildren<Transform>()){
-        spawnedCount +=1;
-      }
-    }
-
   public void spawnEnemy(float cadency, int type)
     {
         if (type == 0)
@@ -36,6 +29,7 @@ public class EnemySpawner : MonoBehaviour
             Vector3 position = new Vector3(Random.Range(-camwidth / 2,camwidth/2), Random.Range(0 , height/2), 0);
             GameObject crab = Instantiate(Crab, position, this.transform.rotation);
             crab.GetComponent<LivesCount>().scripter = scripter;
+            crab.GetComponent<shieldDestroy>().scripter = scripter;
             crab.transform.parent = transform;
         }
         else if (type == 1)
@@ -57,6 +51,7 @@ public class EnemySpawner : MonoBehaviour
           Vector3 position = new Vector3(Random.Range(-camwidth / 2, camwidth / 2), Random.Range(0, height / 2), 0);
           GameObject coffe = Instantiate(cafetera, position, this.transform.rotation);
             coffe.GetComponent<LivesCount>().scripter = scripter;
+            coffe.GetComponent<shieldDestroy>().scripter = scripter;
             coffe.transform.parent = transform;
         }
 
