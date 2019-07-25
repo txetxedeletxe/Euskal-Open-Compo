@@ -94,15 +94,18 @@ public class PlayerMovement : MonoBehaviour
           Vector3 contactPoint = collision.contacts[0].point;
           Vector3 contactCenter = collider.bounds.center;
           if(contactPoint.y> contactCenter.y){
+            resetPool();
             canJump = true;
             anim.SetBool("Jump", false);
-            resetPool();
+
           }
         }
     }
     public void resetPool()
 {
-    rg.velocity = Vector3.zero;
-    rg.angularVelocity = Vector3.zero;
+  if(!canJump){
+    rb2d.velocity = Vector3.zero;
+    rb2d.angularVelocity = 0f;
+  }
 }
 }
