@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
         type = 1;
         cadency = 1;
         start = true;
+        enemyTypes = 4;
 
 
     }
@@ -33,11 +34,12 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyCount = spawner.GetComponent<EnemySpawner>().spawnedCount;
+        Debug.Log("enemyCount:" + enemyCount);
+       
         if (start)
         {
             for(int i=0; i<=enemyCount; i++) {
-                type = Mathf.RoundToInt(Random.Range(0, enemyTypes));
+                type = Mathf.RoundToInt(Random.Range(-0.5f, enemyTypes-1.5f));
                 spawner.GetComponent<EnemySpawner>().spawnEnemy(cadency, type);
             }
 
@@ -77,6 +79,8 @@ public class GameController : MonoBehaviour
 
     public void updateEnemyCount()
     {
+        Debug.Log("enemySet:"+ enemySet);
+        Debug.Log("enemyCount:" + enemyCount);
         enemyCount -= 1;
     }
 }

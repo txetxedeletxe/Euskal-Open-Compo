@@ -777,12 +777,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957676550}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89bee62e24eead844ad88915139d87f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawner: {fileID: 1255254951}
   jungle: {fileID: 1608211534}
   ruins: {fileID: 994786176}
   desert: {fileID: 48237998}
@@ -863,12 +862,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb3c850d3f8f480889ab08e2c734374, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scripter: {fileID: 957676550}
   player: {fileID: 1269585341}
   Crab: {fileID: 1558683220276204690, guid: ef4b5b3b372f63e48b1c7bf76c9dda24, type: 3}
   Blob: {fileID: 3274870199952107713, guid: f3c044db2ac3f96c6a8ffb28be654943, type: 3}
   Eye: {fileID: 1092910946785649886, guid: 770f77ef3588a4be3bf2df1d593b092b, type: 3}
   cafetera: {fileID: 6387313260472035716, guid: 73d168858d06f1983b72ca744fb982ce,
     type: 3}
+  spawnedCount: 0
 --- !u!1 &1269585341 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1148879627182304918, guid: 7900e79b4b7d356499f845b1a1f03508,

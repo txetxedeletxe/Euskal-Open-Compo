@@ -8,9 +8,12 @@ public class LivesCount : MonoBehaviour
     private Animator anim;
     private float timer;
     private float hitStunTime;
+    public GameObject scripter;
+    GameController gamecontroller;
     // Start is called before the first frame update
     void Start()
     {
+       gamecontroller = scripter.GetComponent<GameController>();
       hitStunTime = 1f;
         anim = gameObject.GetComponent<Animator>();
     }
@@ -34,7 +37,8 @@ public class LivesCount : MonoBehaviour
             timer =0f;
             if (lives <= 0)
             {
-                ScoreScript.scoreValue += 100;
+                gamecontroller.updateEnemyCount();
+               ScoreScript.scoreValue += 100;
                 Destroy(gameObject);
             }
         }
