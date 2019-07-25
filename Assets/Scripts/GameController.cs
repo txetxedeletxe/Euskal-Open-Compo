@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour
     private int enemySet;
     private float cadencyMultiplyer;
     private float cadencyChange;
+    public GameObject sceneMovement;
     // Start is called before the first frame update
     void Start()
     {
@@ -70,6 +71,7 @@ public class GameController : MonoBehaviour
 
         if (enemyCount <= 0)
         {
+          sceneMovement.GetComponent<sceneMovement>().addSpeed();
           cadencyMultiplyer =cadencyMultiplyer *cadencyChange;
           enemySet +=1;
             start = true;
@@ -82,8 +84,6 @@ public class GameController : MonoBehaviour
 
     public void updateEnemyCount()
     {
-        Debug.Log("enemySet:"+ enemySet);
-        Debug.Log("enemyCount:" + enemyCount);
         enemyCount -= 1;
     }
 }

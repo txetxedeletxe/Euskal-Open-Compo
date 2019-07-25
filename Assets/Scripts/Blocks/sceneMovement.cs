@@ -9,8 +9,10 @@ public class sceneMovement : MonoBehaviour
     private Camera cam;
     public float camwidth;
     public float speed;
+    private float speedSum;
     void Start()
     {
+      speedSum = 0.01f;
       cam = transform.parent.gameObject.GetComponent<Camera>();
       float height = 2f * cam.orthographicSize;
       camwidth = height * cam.aspect;
@@ -23,5 +25,8 @@ public class sceneMovement : MonoBehaviour
         ts.gameObject.transform.Translate(-speed* Time.fixedDeltaTime,0f,0f);
       }
       transform.Translate(speed*Time.fixedDeltaTime,0f,0f);//por alguna razon bera be mobitzen da bestela
+    }
+    public void addSpeed(){
+      speed += speedSum;
     }
 }
