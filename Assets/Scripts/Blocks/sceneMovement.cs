@@ -12,7 +12,7 @@ public class sceneMovement : MonoBehaviour
     private float speedSum;
     void Start()
     {
-      speedSum = 0.01f;
+      speedSum = 0.5f;
       cam = transform.parent.gameObject.GetComponent<Camera>();
       float height = 2f * cam.orthographicSize;
       camwidth = height * cam.aspect;

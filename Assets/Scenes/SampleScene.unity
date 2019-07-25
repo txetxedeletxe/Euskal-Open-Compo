@@ -563,6 +563,7 @@ MonoBehaviour:
   jungle: {fileID: 1608211534}
   ruins: {fileID: 994786176}
   desert: {fileID: 48237998}
+  sceneMovement: {fileID: 671498669}
 --- !u!1 &994786176 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4289931961705010323, guid: faf8e6cc669f3ac48860f2d6deb1e839,
