@@ -16,7 +16,7 @@ public class GameOver : MonoBehaviour
         Debug.Log("QUIT!");
 
         Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
+      //  UnityEditor.EditorApplication.isPlaying = false;
 
     }
 

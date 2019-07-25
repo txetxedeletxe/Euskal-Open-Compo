@@ -10,16 +10,28 @@ public class Live : MonoBehaviour
     private bool canBeHit;
     private float countDown;
     public GameObject liveBars;
+    private float timer;
+    private int maxlives;
     // Start is called before the first frame update
     void Start()
     {
+      timer =0;
         canBeHit = true;
         countDown = 1.5f;
+        maxlives = lives;
         liveBars.GetComponent<LifeControler>().spawnbars(lives);
     }
     // Update is called once per frame
     void Update()
     {
+      timer += Time.deltaTime;
+      if(timer>=3f){
+        timer=0;
+        if (lives<maxlives){
+          lives +=1;
+          liveBars.GetComponent<LifeControler>().addLive();
+        }
+      }
         if (!canBeHit)
         {
             if (countDown <= 0)
@@ -51,7 +63,8 @@ public class Live : MonoBehaviour
     }
     public void hit(){
       canBeHit = false;
-      countDown = 1.5f;
+      countDown = 0.5f;
+      timer = 0f;
 
       lives -= 1;
       liveBars.GetComponent<LifeControler>().removeLife();

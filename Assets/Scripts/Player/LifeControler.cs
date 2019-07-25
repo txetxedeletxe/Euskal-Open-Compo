@@ -38,6 +38,13 @@ public class LifeControler : MonoBehaviour
       lastbar.transform.localPosition = new Vector3(6f,0f,0f);
 
     }
+    public void addLive(){
+      prelastbar =lastbar;
+      lastbar = Instantiate(lifebar,transform.position,transform.rotation);
+      lastbar.transform.parent = prelastbar.transform;
+      lastbar.transform.localPosition = new Vector3(6f,0f,0f);
+      barCount +=1;
+    }
 
     public void removeLife()
     {
