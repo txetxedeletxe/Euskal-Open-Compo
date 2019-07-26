@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 2245463952221046059}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &570451978
@@ -1520,13 +1520,43 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 425662254}
+    - target: {fileID: 2245463950959043580, guid: 797d1587691990348a67b8a649b661a2,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 7928353779462949069, guid: 15456ff99ea5d69429c26005f92f7062,
+        type: 3}
+    - target: {fileID: 2245463950959043580, guid: 797d1587691990348a67b8a649b661a2,
+        type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 7928353779462949069, guid: 15456ff99ea5d69429c26005f92f7062,
+        type: 3}
     - target: {fileID: 2245463950959043583, guid: 797d1587691990348a67b8a649b661a2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -83.65
       objectReference: {fileID: 0}
+    - target: {fileID: 2245463951186392889, guid: 797d1587691990348a67b8a649b661a2,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: -8948310650188516998, guid: cb6aae1027ddab246a7869e75c92b913,
+        type: 3}
+    - target: {fileID: 2245463951186392889, guid: 797d1587691990348a67b8a649b661a2,
+        type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: -8948310650188516998, guid: cb6aae1027ddab246a7869e75c92b913,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 797d1587691990348a67b8a649b661a2, type: 3}
+--- !u!1 &2245463952221046059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2245463950959043582, guid: 797d1587691990348a67b8a649b661a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2245463952221046058}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6504344301462400417 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3903231634915482281, guid: 9167a237df1222b42a1f178e913f1ef8,

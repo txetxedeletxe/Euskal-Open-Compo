@@ -8,13 +8,13 @@ public class timeControll : MonoBehaviour
     public GameObject pause;
 
   private void Pause(){
-    if(Input.GetKeyDown("p") && !isPaused){
+    if(Input.GetButtonDown("Start") && !isPaused){
         Debug.Log("pause");
             pause.SetActive(true);
         Time.timeScale = 0.0000001f;
         isPaused = true;
     }
-    else if(Input.GetKeyDown("p") && isPaused){
+    else if(Input.GetButtonDown("Start") && isPaused){
         Debug.Log("Un Paused");
             pause.SetActive(false);
             Time.timeScale = 1.1f;

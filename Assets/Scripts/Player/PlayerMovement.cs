@@ -23,10 +23,15 @@ public class PlayerMovement : MonoBehaviour
     private float knockback;
 
     private float camWidth;
+    private bool right;
+    private bool left;
+    
+    float value;
 
     // Start is called before the first frame update;
     void Start()
     {
+       
         knockback = 25f;
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
@@ -38,17 +43,45 @@ public class PlayerMovement : MonoBehaviour
         Camera cam = transform.parent.gameObject.GetComponent<Camera>();
         float height = 2f * cam.orthographicSize;
         camWidth = height * cam.aspect;
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-      if(transform.localPosition.x <=((-camWidth/2)-10f) || transform.localPosition.x >= ((camWidth/2)+10f)){
+        left = false;
+        right = false;
+        if (transform.localPosition.x <=((-camWidth/2)-10f) || transform.localPosition.x >= ((camWidth/2)+10f)){
         gameObject.GetComponent<Live>().hit();
         transform.localPosition = new Vector3(0f,-68,1f);
       }
-        if (Input.GetKey("left"))
+        if ( Input.GetAxis("Horizontal")!=0)
         {
+           
+            if (Input.GetAxis("Horizontal") > 0.9f)
+            {
+                left = false;
+                right = true;
+            }else if (Input.GetAxis("Horizontal") < -0.9f)
+            {
+                left = true;
+                right = false;
+            }
+        }else{ 
+            if (Input.GetButton("Left")) {
+                left = true;
+                right = false;
+            }
+            else if (Input.GetButton("Right"))
+            {
+                left = false;
+                right = true;
+            }
+        }
+
+        if (left) { 
+            Debug.Log("Pressed left");
+
             rb2d.AddForce(new Vector2(-horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
 
@@ -58,8 +91,9 @@ public class PlayerMovement : MonoBehaviour
               }
         }
 
-        if (Input.GetKey("right"))
+        if (right)
         {
+            Debug.Log("Pressed right");
             rb2d.AddForce(new Vector2(horizontalMoveForce * Time.fixedDeltaTime, 0));
             anim.SetBool("Run", true);
             if(!facingRight){
@@ -67,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
                 facingRight = true;
             }
         }
-        if (Input.GetKey("up") && canJump)
+        if (Input.GetButton("Jump") && canJump)
         {
             canJump = false;
             gonnaJump = true;
@@ -76,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (!Input.GetKey("left") && !Input.GetKey("right")) {
+        if (!right && !left) {
             anim.SetBool("Run", false);
         }
         if (gonnaJump)

@@ -24,6 +24,7 @@ ScriptsOnlyBuild:
     - Spawner
     - SpeedController
     - Turret
+    - audioControll
     - bulletDestroy
     - bulletEfect
     - firepoint
@@ -59,8 +60,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -90,6 +93,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -239,6 +246,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -317,6 +328,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11838}
     - Class: 114
       Script: {instanceID: 11862}
+    - Class: 114
+      Script: {instanceID: 76590}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -870,7 +883,7 @@ ScriptsOnlyBuild:
     className: LifeControler
   - hash:
       serializedVersion: 2
-      Hash: a63a335c8cf4b2cb1d404707c1d09b22
+      Hash: 34979209a4a4269b55a89e2fa12c6428
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -970,9 +983,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0fa1faba15feef7e759e5749098c49a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: audioControll
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/GAMEOVER.unity
-  playerPath: C:/Users/K0r0s/Desktop/OpenCompo/versions/Open-Game-Compo-M4M.exe
+  playerPath: C:/Users/K0r0s/Desktop/EntregaOpenCompo/Open-Game-Compo-M4M.exe
